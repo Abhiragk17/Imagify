@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+# Imagify
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Imagify is a Full stack AI powered Image generation and sharing platform where a user can create
+any image just by simply providing its descripton.
+After creation we can share that image in the community so that everyone can see the image.
+Techstack used - React Js and TailWind CSS for the frontend , Express JS and MongoDb for the
+backend , OpenAi DALL-E api for image generation and cloudinary for storing the image.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
